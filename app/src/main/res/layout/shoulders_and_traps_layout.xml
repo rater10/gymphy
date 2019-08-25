@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arnol_press"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/umeri1"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/shoulders_and_traps_editText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/shoulders_and_traps_save_button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dumbbell_front_raise_12_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/umeri2"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/shoulders_and_traps_editText_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/shoulders_and_traps_save_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3_bent_over_dumbbell_raise_12_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/umeri3"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/shoulders_and_traps_editText_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/shoulders_and_traps_save_button_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_4_dumbbell_shrug_12_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/umeri4"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/shoulders_and_traps_editText_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/shoulders_and_traps_save_button_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

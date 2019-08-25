@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1A237E"
+
+    >
+
+    <Chronometer
+        android:id="@+id/chronometer_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="110sp"
+        android:textColor="#FF8A65"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start1"
+        android:textSize="56sp"
+        android:onClick="startChronometer"
+        android:background="#1A237E"
+        android:textColor="#FF8A65"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pause1"
+        android:textSize="56sp"
+        android:onClick="pauseChronometer"
+        android:background="#1A237E"
+        android:textColor="#FF8A65"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop1"
+        android:textSize="56sp"
+        android:onClick="resetChronometer"
+        android:background="#1A237E"
+        android:textColor="#C62828"
+
+        />
+
+</LinearLayout>

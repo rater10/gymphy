@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_lat_pulldowns_12_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lat_pulldowns"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/back_and_biceps_editText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/back_and_biceps_save_button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wide_grip_seated_cable_row_12_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back2"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/back_and_biceps_editText_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/back_and_biceps_save_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dumbbell_row"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dumbbell"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/back_and_biceps_editText_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/back_and_biceps_save_button_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/preacher_curls_12_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/biceps1"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/back_and_biceps_editText_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/back_and_biceps_save_button_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dumbbell_curls_12_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/biceps2"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/back_and_biceps_editText_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/back_and_biceps_save_button_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/standing_cable_row_12_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/biceps3"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/back_and_biceps_editText_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/back_and_biceps_save_button_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

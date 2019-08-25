@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_leg_curl_14_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/leg1"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/legs_editText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/legs_save_button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_2_leg_extension_14_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/legs2"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/legs_editText_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/legs_save_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3_leg_press_14_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/legs3"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/legs_editText_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/legs_save_button_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_4_abductor_machine_14_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/legs4"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/legs_editText_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/legs_save_button_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_adductor_machine_14_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/legs5"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/legs_editText_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/legs_save_button_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_6_standing_calf_raises_14_reps"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/legs6"
+                android:layout_gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/legs_editText_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="My Notes"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/legs_save_button_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save1"
+                android:layout_gravity="center"
+                android:background="#1A237E"
+                android:textColor="#E0E0E0"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

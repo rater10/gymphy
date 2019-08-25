@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A237E"
+
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="231.5dp"
+        android:layout_gravity="top"
+        android:src="@drawable/wallpaper"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+
+        >
+
+        <Button
+
+            android:id="@+id/back_and_biceps_button"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+
+            android:layout_gravity="start"
+            android:padding="10dp"
+            android:text="@string/v"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#FF8A65"
+            android:background="#1A237E"
+            android:drawableTop="@drawable/ic_bicepsic"
+
+            />
+
+        <Button
+
+            android:id="@+id/chest_and_triceps_button"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:layout_gravity="start"
+            android:padding="10dp"
+            android:text="@string/sd"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#FF8A65"
+            android:background="#1A237E"
+            android:drawableTop="@drawable/ic_pieptic"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+
+        >
+
+        <Button
+
+            android:id="@+id/legs_button"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+
+            android:layout_gravity="start"
+            android:padding="10dp"
+            android:text="@string/x"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#FF8A65"
+            android:background="#1A237E"
+            android:drawableTop="@drawable/ic_warrior"
+            />
+
+        <Button
+
+            android:id="@+id/shoulders_and_traps_button"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:layout_gravity="start"
+            android:padding="10dp"
+            android:text="@string/p"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#FF8A65"
+            android:background="#1A237E"
+            android:drawableTop="@drawable/ic_umeri"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+
+        >
+
+        <Button
+
+            android:id="@+id/cronometer_button"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+
+            android:layout_gravity="start"
+            android:padding="10dp"
+            android:background="@drawable/ic_crono"
+            android:layout_marginEnd="10dp"
+
+            />
+
+        <Button
+
+            android:id="@+id/music_player_button"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+
+            android:layout_gravity="start"
+            android:padding="10dp"
+            android:background="@drawable/ic_music_player"
+            android:layout_marginEnd="10dp"
+
+            />
+
+        <Button
+
+            android:id="@+id/maps_button"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+
+            android:layout_gravity="start"
+            android:padding="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/ic_map_location"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
